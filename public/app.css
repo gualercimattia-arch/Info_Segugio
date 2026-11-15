@@ -1,0 +1,19 @@
+/* Personalizzazioni grafiche di Info Segugio */
+
+/* Messaggi più leggibili */
+.message-content {
+    line-height: 1.6;
+}
+
+/* Titoli del riassunto finale con il colore principale del tema */
+.message-content h2,
+.message-content h3 {
+    color: hsl(var(--primary));
+}
+
+/* Avatar rotondi con un bordo nel colore del tema */
+img[alt*="segugio_assistant"],
+img[alt*="system_assistant"] {
+    border-radius: 9999px;
+    border: 2px solid hsl(var(--primary));
+}
